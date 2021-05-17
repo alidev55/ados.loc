@@ -113,10 +113,10 @@
                                                     <li><a href="#">USD $</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#" data-toggle="dropdown"><span class="mr-2"><img src="images/flag.jpg" alt="img"></span>Language</a>
+                                            <li><a href="#" data-toggle="dropdown"><span class="mr-2"><img src="<?php echo get_template_directory_uri();?>/assets/images/flag.jpg" alt="img"></span>Language</a>
                                                 <ul>
-                                                    <li><a href="#"><span class="mr-2"><img src="images/English-icon.jpg" alt="img"></span>English</a></li>
-                                                    <li><a href="#"><span class="mr-2"><img src="images/French-icon.jpg" alt="img"></span>French</a></li>
+                                                    <li><a href="#"><span class="mr-2"><img src="<?php echo get_template_directory_uri();?>/assets/images/English-icon.jpg" alt="img"></span>English</a></li>
+                                                    <li><a href="#"><span class="mr-2"><img src="<?php echo get_template_directory_uri();?>/assets/images/French-icon.jpg" alt="img"></span>French</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -135,7 +135,7 @@
                             <!-- site-branding -->
                             <div class="site-branding">
                                 <a class="home-link" href="index.html" title="Fixfellow" rel="home">
-                                    <img id="logo-img" class="img-center" src="images/logo-img.png" alt="logo-img">
+                                    <img id="logo-img" class="img-center" src="<?php echo get_template_directory_uri();?>/assets/images/logo-img.png" alt="logo-img">
                                 </a>
                             </div><!-- site-branding end -->
                         </div>

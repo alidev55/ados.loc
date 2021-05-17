@@ -199,7 +199,7 @@
                             data-transform_out="opacity:0;s:2000;e:Power4.easeIn;s:2000;e:Power4.easeIn;" 
                             data-start="1000" 
 
-                            data-responsive_offset="on" ><img src="images/slides/slider-mainbg-004.png" alt="" data-ww="['981px','781px','451px','261px']" data-hh="['480px','571px','371px','221px']" data-no-retina> 
+                            data-responsive_offset="on" ><img src="<?php echo get_template_directory_uri();?>/assets/images/slides/slider-mainbg-004.png" alt="" data-ww="['981px','781px','451px','261px']" data-hh="['480px','571px','371px','221px']" data-no-retina> 
                         </div>
 
                         <!-- LAYER NR. 2 -->

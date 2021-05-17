@@ -44,7 +44,7 @@
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 widget-area m-auto">
                             <div class="widget">
                                 <div class="footer-logo">
-                                    <img id="footer-logo-img" class="img-center" src="images/footer-logo.png" alt="">
+                                    <img id="footer-logo-img" class="img-center" src="<?php echo get_template_directory_uri();?>/assets/images/footer-logo.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -115,7 +115,7 @@
                             <div class="widget contact_map clearfix">
                                 <h3 class="widget-title">Our Stores</h3>
                                 <div class="footer_map mb-30 mt-5">
-                                    <img src="images/footer_map.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri();?>/assets/images/footer_map.png" alt="">
                                 </div>
                                 
                             </div>
@@ -135,12 +135,12 @@
                         <div class="col-md-12 col-lg-6 ttm-footer2-right">
                            <div class="supported_card-block">
                                 <ul>
-                                    <li><img src="images/supported_card/card-1.png" alt="maestro"></li>
-                                    <li><img src="images/supported_card/card-2.png" alt="paypal"></li>
-                                    <li><img src="images/supported_card/card-3.png" alt="western union"></li>
-                                    <li><img src="images/supported_card/card-4.png" alt="visa"></li>
-                                    <li><img src="images/supported_card/card-5.png" alt="cirrus"></li>
-                                    <li><img src="images/supported_card/card-6.png" alt="ebay"></li>
+                                    <li><img src="<?php echo get_template_directory_uri();?>/assets/images/supported_card/card-1.png" alt="maestro"></li>
+                                    <li><img src="<?php echo get_template_directory_uri();?>/assets/images/supported_card/card-2.png" alt="paypal"></li>
+                                    <li><img src="<?php echo get_template_directory_uri();?>/assets/images/supported_card/card-3.png" alt="western union"></li>
+                                    <li><img src="<?php echo get_template_directory_uri();?>/assets/images/supported_card/card-4.png" alt="visa"></li>
+                                    <li><img src="<?php echo get_template_directory_uri();?>/assets/images/supported_card/card-5.png" alt="cirrus"></li>
+                                    <li><img src="<?php echo get_template_directory_uri();?>/assets/images/supported_card/card-6.png" alt="ebay"></li>
                                 </ul>
                             </div>
                         </div>
